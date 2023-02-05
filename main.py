@@ -64,7 +64,7 @@ if(soma2022 > soma2021):
     percentual_soma = ((soma2022 / soma2021) - 1) * 100
     print(f"\nO valor total em 2022 corresponde a um aumento de {round(percentual_soma,2)} % comparado com o ano de 2021.")
 
-# Sei que essa condição não irá ser satisfeita, mas apenas automatizei para demonstrar posso fazer essa análise também.
+# Sei que essa condição não irá ser satisfeita, mas apenas automatizei para demonstrar que posso fazer essa análise também.
 elif(soma2022 < soma2021):
     percentual_soma = ( (soma2022-soma2021) / soma2021 ) * (-100) 
     print(f"\nO valor total em 2022 corresponde a uma redução de {round(percentual_soma,2)} % comparado com o ano de 2021.")
@@ -79,7 +79,7 @@ if(media2022 > media2021):
     percentual_media = ((media2022 / media2021) - 1) * 100
     print(f"\nA média em 2022 é {round(percentual_media,2)} % maior que a do ano de 2021.")
 
-# Sei que essa condição não irá ser satisfeita, mas apenas automatizei para demonstrar posso fazer essa análise também.
+# Sei que essa condição não irá ser satisfeita, mas apenas automatizei para demonstrar que posso fazer essa análise também.
 elif(media2022 < media2021):
     percentual_media = ( (media2022-media2021) / media2021 ) * (-100) 
     print(f"\n A média em 2022 é {round(percentual_media,2)} % menor que a do ano de 2021.")
